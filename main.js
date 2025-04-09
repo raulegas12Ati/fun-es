@@ -28,7 +28,6 @@ somar(numero1, numero2)
 /* 
 ##exemplo 3
 
-
 function raizQuadrada(numero){
     console.log(Math.sqrt(numero))
 }
@@ -49,3 +48,54 @@ potenciacao(numero1, numero2)
 multiplicacao(numero2, numero1)
 */
 
+/*
+##exemplo 4
+*/
+
+
+
+
+
+/*
+function raizQuadrada(numero){
+    return Math.sqrt(numero)
+}
+
+function potenciacao(valor1, valor2){
+    return Math.pow(valor1, valor2)
+}
+
+function multiplicacao(valor1, valor2){
+    return valor1 * valor2
+}
+
+let numero1 = Number(prompt("Digite o número 1: "))
+let numero2 = Number(prompt("Digite o número 2: "))
+
+let raiz1  = raizQuadrada(numero1)
+let raiz2  = raizQuadrada(numero2)
+
+console.log(raiz1, raiz2)
+
+
+*/
+
+/*
+##exemplo 5
+function boasVindas(nome, idade){
+
+    return `
+      Seja bem-vindo ${nome}
+      ${nome}, você é muito especial
+      Parábens plo seu aniversário de ${idade} anos.
+    `
+}
+
+let nome = prompt("Digite seu nome: ")
+let idade = prompt("Digite sua idade: ")
+
+let mensagem = boasVindas(nome, idade)
+
+alert(mensagem)
+console.log(mensagem)
+*/
